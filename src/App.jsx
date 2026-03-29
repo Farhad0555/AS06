@@ -4,10 +4,8 @@ import "react-toastify/dist/ReactToastify.css";
 
 /* ─── STYLES ─────────────────────────────────────────────────────────────── */
 const styles = `
-  // @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap');
 
-
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
   :root {
     --purple: #7c3aed;
     --purple-dark: #5b21b6;
@@ -25,10 +23,8 @@ const styles = `
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; }
-  // body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); overflow-x: hidden; }
-  // h1,h2,h3,h4,h5 { font-family: 'Syne', sans-serif; }
-  body { font-family: 'Manrope', sans-serif; ... }
-h1,h2,h3,h4,h5 { font-family: 'Manrope', sans-serif; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); overflow-x: hidden; }
+  h1,h2,h3,h4,h5 { font-family: 'Syne', sans-serif; }
 
   /* NAVBAR */
   .navbar { position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,0.93); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0 5%; height: 68px; display: flex; align-items: center; justify-content: space-between; }
