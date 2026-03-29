@@ -8,11 +8,9 @@ Products/Cart Toggle — tab bar switching between the two views; Products shown
 Cart — 1-column layout with item icon/name/price, Remove per item, running total, and Proceed to Checkout
 Toast Notifications — custom-built toast system mimicking React-Toastify behavior:
 
-✅ Green: "Added to cart"
-❌ Red: "Removed from cart"
-⚠️ Warning: "Already in cart"
-🎉 Success: "Order placed!"
-
+1. Green: "Added to cart"
+2. Red: "Removed from cart"
+3. Warning: "Already in cart"
 
 3 Steps Section, Pricing Section (Starter/Pro/Enterprise), CTA Banner, and Footer
 Fully responsive across mobile, tablet, and desktop
